@@ -1,0 +1,2 @@
+#,Пара,Dir,TF,Основание,Entry_Z,Entry_HR,Stop_Z,Entry_Time,Entry_Price1,Entry_Price2,Current_Z,Current_HR,P&L_%,Hours_In,HL_hours,Price1_Now,Price2_Now,Hurst,Correlation,P-value,Z_Window,Exit_Signal,Exit_Urgency,Z_Toward_Zero,PnL_Z_Disagree,Quality_Warnings
+352,LINK/TRUMP,SHORT,1h,🤖,2.6164,0.642888,4.6164000000000005,2026-04-01T07:12,8.814,3.002,10.0658,1.9309,-1.7777,2.8,1.1,9.089,3.042,0.1143,0.7507,0.637844,10,⏰ В позиции 3ч = 2.6x HL (1ч). Коинтеграция могла разрушиться. СРОЧНЫЙ ВЫХОД.,3,False,False,⚠️ P-value=0.638 — коинтеграция ослабла!

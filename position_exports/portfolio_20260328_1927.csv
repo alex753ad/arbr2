@@ -1,0 +1,2 @@
+#,Пара,Dir,TF,Entry_Z,Current_Z,Entry_HR,Current_HR,HR_Drift_%,P&L_%,Hours_In,HL_hours,Hurst,P-value,Z_Toward_Zero,Exit_Signal,Entry_Time,Entry_P1,Entry_P2,Now_P1,Now_P2
+330,ASTER/SEI,SHORT,1h,3.3799,-0.931067165418137,4.599072,10.229135947873718,122.4,0.0342,0.1,2.1,0.276,0.366,True,🎯 Z пересёк 0 (сейчас -0.93). Можно зафи,2026-03-28T19:23:49.334517+03:00,0.6663,0.05458,0.6647,0.05484

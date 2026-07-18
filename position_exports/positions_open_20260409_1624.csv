@@ -1,0 +1,2 @@
+#,Пара,Dir,TF,Основание,Entry_Z,Entry_HR,Stop_Z,Entry_Time,Entry_Price1,Entry_Price2,Current_Z,Current_HR,P&L_%,Hours_In,HL_hours,Price1_Now,Price2_Now,Hurst,Correlation,P-value,Z_Window,Exit_Signal,Exit_Urgency,Z_Toward_Zero,PnL_Z_Disagree,Quality_Warnings
+368,XMR/GIGGLE,SHORT,1h,🤖,3.002,4.614906,5.002,2026-04-09T15:11,333.94,25.13,0.4707,0.1572,0.2979,1.2,0.6,331.28,25.3,0.3061,0.2527,0.044182,10,✅ MEAN REVERT (static Z) — закрывать!,2,True,False,

@@ -1,0 +1,2 @@
+#,Пара,Dir,TF,Entry_Z,Current_Z,Entry_HR,Current_HR,HR_Drift_%,P&L_%,Hours_In,HL_hours,Hurst,P-value,Z_Toward_Zero,Exit_Signal,Entry_Time,Entry_P1,Entry_P2,Now_P1,Now_P2
+369,ASTER/OP,SHORT,1h,2.8088,-0.6984924073002933,1.782069,1.3796910933905233,22.6,0.418,0.1,2.2,0.234,0.0254,True,✅ MEAN REVERT (static Z) — закрывать!,2026-04-09T22:00:11.399876+03:00,0.6695,0.11255,0.6708,0.11411

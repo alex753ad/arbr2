@@ -1,0 +1,2 @@
+#,Пара,Dir,TF,Основание,Entry_Z,Entry_HR,Stop_Z,Entry_Time,Entry_Price1,Entry_Price2,Current_Z,Current_HR,P&L_%,Hours_In,HL_hours,Price1_Now,Price2_Now,Hurst,Correlation,P-value,Z_Window,Exit_Signal,Exit_Urgency,Z_Toward_Zero,PnL_Z_Disagree,Quality_Warnings
+333,VANA/BIRB,SHORT,1h,🤖,2.8795,2.065157,4.8795,2026-03-29T12:14,1.2718,0.12743,-0.7799,-0.7777,-0.8627,1.0,2.4,1.2515,0.12557,0.2463,-0.0519,0.05129,10,✅ OVERSHOOT (static Z) — фиксировать прибыль!,2,True,True,⚠️ Корреляция ρ=-0.05 < 0.2 — хедж не работает!

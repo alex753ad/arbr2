@@ -1,0 +1,2 @@
+#,Пара,Dir,TF,Основание,Entry_Z,Entry_HR,Stop_Z,Entry_Time,Entry_Price1,Entry_Price2,Current_Z,Current_HR,P&L_%,Hours_In,HL_hours,Price1_Now,Price2_Now,Hurst,Correlation,P-value,Z_Window,Exit_Signal,Exit_Urgency,Z_Toward_Zero,PnL_Z_Disagree,Quality_Warnings
+330,ASTER/SEI,SHORT,1h,🤖,3.3799,4.599072,5.3799,2026-03-28T19:23,0.6663,0.05458,-0.6741,10.2292,-0.026,0.0,2.1,0.6647,0.0548,0.2757,0.5223,0.369421,10,🎯 Z пересёк 0 (сейчас -0.67). Можно зафиксировать или подождать overshoot.,1,True,True,⚠️ P-value=0.369 — коинтеграция ослабла!

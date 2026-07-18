@@ -1,0 +1,2 @@
+#,Пара,Dir,TF,Основание,Entry_Z,Entry_HR,Stop_Z,Entry_Time,Entry_Price1,Entry_Price2,Current_Z,Current_HR,P&L_%,Hours_In,HL_hours,Price1_Now,Price2_Now,Hurst,Correlation,P-value,Z_Window,Exit_Signal,Exit_Urgency,Z_Toward_Zero,PnL_Z_Disagree,Quality_Warnings
+376,ATOM/SPX,SHORT,1h,🤖,3.6406,1.703419,5.6406,2026-04-10T08:52,1.8359,0.3085,-0.2496,2.463,-0.4548,0.9,2.1,1.8224,0.3069,0.2965,0.7273,0.338625,10,🎯 Z пересёк 0 (сейчас -0.25). Можно зафиксировать или подождать overshoot.,1,True,True,⚠️ P-value=0.339 — коинтеграция ослабла!

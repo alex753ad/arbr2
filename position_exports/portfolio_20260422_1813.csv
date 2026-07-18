@@ -1,0 +1,2 @@
+#,Пара,Dir,TF,Entry_Z,Current_Z,Entry_HR,Current_HR,HR_Drift_%,P&L_%,Hours_In,HL_hours,Hurst,P-value,Z_Toward_Zero,Exit_Signal,Entry_Time,Entry_P1,Entry_P2,Now_P1,Now_P2
+387,NOT/HMSTR,SHORT,1h,2.782,-2.239009448604902,2.634583,1.065788120890501,59.5,-0.4528,4.5,1.9,0.207,0.0109,True,📉 Best Z (since entry): -5.21 → now -2.2,2026-04-22T13:40:27.130968+03:00,0.000412,0.000157,0.0004121,0.0001569

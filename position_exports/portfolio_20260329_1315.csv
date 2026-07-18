@@ -1,0 +1,2 @@
+#,Пара,Dir,TF,Entry_Z,Current_Z,Entry_HR,Current_HR,HR_Drift_%,P&L_%,Hours_In,HL_hours,Hurst,P-value,Z_Toward_Zero,Exit_Signal,Entry_Time,Entry_P1,Entry_P2,Now_P1,Now_P2
+333,VANA/BIRB,SHORT,1h,2.8795,-0.7799438455565539,2.065157,-0.7776767409766218,137.7,-0.8627,1.0,2.4,0.246,0.0513,True,✅ OVERSHOOT (static Z) — фиксировать при,2026-03-29T12:14:57.186821+03:00,1.2718,0.12743,1.2515,0.12557
