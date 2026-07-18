@@ -1,0 +1,215 @@
+{"ts": "2026-04-17T19:44:28.029789+03:00", "pair": "LINK/NEAR", "direction": "SHORT", "source": "auto_monitor", "reason": "🚫 Pair memory: LINK/NEAR — total=-7.18%, WR=25% за 4 сделок", "category": "pair_memory"}
+{"ts": "2026-04-17T19:44:28.040875+03:00", "pair": "FIL/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-17T21:34:04.005726+03:00", "pair": "SUI/VIRTUAL", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-17T21:34:04.011874+03:00", "pair": "TRUMP/VIRTUAL", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-18T17:25:14.999668+03:00", "pair": "AVAX/TRUMP", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-18T17:25:15.013969+03:00", "pair": "ONDO/HBAR", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-18T21:52:56.454350+03:00", "pair": "AVAX/TRUMP", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-18T22:56:43.802583+03:00", "pair": "AVAX/TRUMP", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-19T14:38:46.039743+03:00", "pair": "DOGE/MOVE", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-19T15:18:27.719056+03:00", "pair": "DOGE/MOVE", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-19T15:58:42.254957+03:00", "pair": "DOGE/MOVE", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-19T18:01:23.840596+03:00", "pair": "DOGE/MOVE", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-19T18:42:15.551824+03:00", "pair": "DOGE/MOVE", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-19T21:27:25.900460+03:00", "pair": "LINK/ICP", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-20T13:37:28.559615+03:00", "pair": "VIRTUAL/EIGEN", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-20T14:11:50.608684+03:00", "pair": "VIRTUAL/EIGEN", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-20T15:39:07.736060+03:00", "pair": "FIL/UMA", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-21T08:14:23.850749+03:00", "pair": "DOGE/STRK", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-21T09:46:56.469752+03:00", "pair": "DOGE/STRK", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-21T10:35:07.643002+03:00", "pair": "YGG/PENGU", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-21T11:20:49.242016+03:00", "pair": "AVAX/VVV", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️BT)", "category": "entry_label"}
+{"ts": "2026-04-21T12:08:46.720521+03:00", "pair": "AVAX/VVV", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️BT)", "category": "entry_label"}
+{"ts": "2026-04-21T14:03:47.339197+03:00", "pair": "DOGE/STRK", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-21T14:57:20.584506+03:00", "pair": "FIL/UMA", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-21T14:57:20.601146+03:00", "pair": "UMA/MOODENG", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️CUSUM)", "category": "entry_label"}
+{"ts": "2026-04-21T14:57:20.616077+03:00", "pair": "UMA/TIA", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️CUSUM ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-21T15:41:46.276468+03:00", "pair": "DOGE/STRK", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-21T15:41:46.300999+03:00", "pair": "AVAX/VVV", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️BT)", "category": "entry_label"}
+{"ts": "2026-04-21T16:26:02.249952+03:00", "pair": "AVAX/VVV", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️BT)", "category": "entry_label"}
+{"ts": "2026-04-21T17:15:28.836409+03:00", "pair": "FIL/UMA", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-21T22:39:28.668062+03:00", "pair": "SUI/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-21T22:39:28.687826+03:00", "pair": "AVAX/VVV", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️BT)", "category": "entry_label"}
+{"ts": "2026-04-22T00:06:28.711980+03:00", "pair": "AVAX/VVV", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️BT)", "category": "entry_label"}
+{"ts": "2026-04-22T00:21:58.538256+03:00", "pair": "SUI/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T00:21:58.539892+03:00", "pair": "AVAX/VVV", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️BT)", "category": "entry_label"}
+{"ts": "2026-04-22T01:04:59.636069+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T01:47:55.696907+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T02:30:53.745025+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T02:30:53.746839+03:00", "pair": "ASTER/RUNE", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T03:56:32.335274+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T04:39:23.095321+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T04:39:23.096864+03:00", "pair": "ASTER/STRK", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T05:22:06.880263+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T05:22:06.881963+03:00", "pair": "ASTER/STRK", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T06:04:56.389458+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T06:04:56.391391+03:00", "pair": "ASTER/STRK", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T06:47:54.098315+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T06:47:54.100553+03:00", "pair": "ADA/SEI", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T06:47:54.101650+03:00", "pair": "ASTER/STRK", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T07:31:54.559151+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T07:31:54.560804+03:00", "pair": "ONDO/SEI", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T07:31:54.562755+03:00", "pair": "ASTER/STRK", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T07:31:54.563664+03:00", "pair": "SUI/WLD", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-22T08:15:59.041443+03:00", "pair": "SUI/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T08:15:59.042917+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T08:15:59.044670+03:00", "pair": "DOGE/STRK", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T08:15:59.046071+03:00", "pair": "CRV/SEI", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T08:15:59.047044+03:00", "pair": "ASTER/STRK", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T08:15:59.047951+03:00", "pair": "SUI/WLD", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-22T08:15:59.048781+03:00", "pair": "AVAX/VVV", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️BT)", "category": "entry_label"}
+{"ts": "2026-04-22T09:00:17.031543+03:00", "pair": "SUI/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T09:00:17.033668+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T09:00:17.035220+03:00", "pair": "ONDO/STRK", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T09:00:17.036045+03:00", "pair": "SUI/WLD", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-22T09:00:17.036951+03:00", "pair": "BNB/ARIA", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-22T09:45:01.284699+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T09:45:01.286146+03:00", "pair": "ONDO/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T09:45:01.287505+03:00", "pair": "SUI/WLD", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-22T09:45:01.288642+03:00", "pair": "BNB/ARIA", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-22T10:30:51.123700+03:00", "pair": "SUI/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T10:30:51.131908+03:00", "pair": "SUI/WLD", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-22T10:30:51.134023+03:00", "pair": "BNB/ARIA", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-22T11:17:39.731149+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T11:17:39.739772+03:00", "pair": "SUI/WLD", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-22T11:17:39.740804+03:00", "pair": "AVAX/VVV", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️BT)", "category": "entry_label"}
+{"ts": "2026-04-22T12:03:13.989511+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T12:03:13.998889+03:00", "pair": "AVAX/VVV", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️BT)", "category": "entry_label"}
+{"ts": "2026-04-22T12:52:24.705162+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T12:52:24.715862+03:00", "pair": "SUI/WLD", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-22T13:39:48.489269+03:00", "pair": "SUI/GRASS", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T13:39:48.502655+03:00", "pair": "FIL/GRASS", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T13:39:48.503738+03:00", "pair": "GRASS/ENA", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️BT)", "category": "entry_label"}
+{"ts": "2026-04-22T14:30:04.097754+03:00", "pair": "GRASS/ENA", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️BT)", "category": "entry_label"}
+{"ts": "2026-04-22T16:56:27.292910+03:00", "pair": "ONDO/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T16:56:27.305401+03:00", "pair": "SUI/WLD", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️BT)", "category": "entry_label"}
+{"ts": "2026-04-22T16:56:27.316588+03:00", "pair": "TRUMP/MNT", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️BT)", "category": "entry_label"}
+{"ts": "2026-04-22T20:53:30.750291+03:00", "pair": "XAUT/XAU", "direction": "LONG", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️H≥0.4 ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-22T20:53:30.760887+03:00", "pair": "DOGE/STRK", "direction": "LONG", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️CUSUM ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-22T21:30:29.886642+03:00", "pair": "XAUT/XAU", "direction": "LONG", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️H≥0.4 ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-22T21:30:29.888436+03:00", "pair": "DOGE/STRK", "direction": "LONG", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️CUSUM ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-22T22:07:14.541091+03:00", "pair": "LINK/NEAR", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T22:07:14.542692+03:00", "pair": "DOGE/STRK", "direction": "LONG", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️CUSUM ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-22T22:33:56.594833+03:00", "pair": "AVAX/FLUID", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T22:33:56.596351+03:00", "pair": "ONDO/PYTH", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T22:33:56.597954+03:00", "pair": "ASTER/PYTH", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T22:33:56.599455+03:00", "pair": "LINK/FLUID", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T22:33:56.600538+03:00", "pair": "LINK/NEAR", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T22:33:56.601412+03:00", "pair": "ONDO/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T22:33:56.602230+03:00", "pair": "GRASS/HOLO", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️CUSUM ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-22T22:33:56.603165+03:00", "pair": "DOGE/STRK", "direction": "LONG", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️CUSUM ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-22T23:39:03.920004+03:00", "pair": "SUI/GRASS", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T23:39:03.937486+03:00", "pair": "FIL/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T23:39:03.938526+03:00", "pair": "ASTER/SEI", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-22T23:39:03.939371+03:00", "pair": "CRV/SEI", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T00:27:54.728062+03:00", "pair": "FIL/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T00:27:54.729668+03:00", "pair": "FIL/GRASS", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T00:27:54.731174+03:00", "pair": "CRV/SEI", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T00:27:54.732075+03:00", "pair": "ASTER/VIRTUAL", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T01:16:54.712011+03:00", "pair": "SUI/GRASS", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T01:16:54.713850+03:00", "pair": "ASTER/SEI", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T01:16:54.715347+03:00", "pair": "ASTER/VIRTUAL", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T02:06:46.175347+03:00", "pair": "SUI/GRASS", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T02:06:46.177288+03:00", "pair": "FIL/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T02:06:46.178503+03:00", "pair": "FIL/GRASS", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T02:06:46.179525+03:00", "pair": "UMA/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T02:06:46.180339+03:00", "pair": "ASTER/VIRTUAL", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T02:56:42.366601+03:00", "pair": "FIL/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T02:56:42.368399+03:00", "pair": "FIL/GRASS", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T02:56:42.369862+03:00", "pair": "ASTER/SEI", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T02:56:42.370839+03:00", "pair": "CRV/SEI", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T02:56:42.371711+03:00", "pair": "ASTER/VIRTUAL", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T03:46:55.714635+03:00", "pair": "FIL/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T03:46:55.715592+03:00", "pair": "FIL/GRASS", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T03:46:55.716736+03:00", "pair": "UMA/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T04:36:59.404918+03:00", "pair": "ASTER/ME", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T04:36:59.406754+03:00", "pair": "SUI/GRASS", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T04:36:59.408310+03:00", "pair": "FIL/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T04:36:59.409229+03:00", "pair": "FIL/GRASS", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T04:36:59.410117+03:00", "pair": "OP/MINA", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T04:36:59.410925+03:00", "pair": "ASTER/VIRTUAL", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T05:26:06.643422+03:00", "pair": "ASTER/ME", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T05:26:06.659879+03:00", "pair": "SUI/GRASS", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T05:26:06.660798+03:00", "pair": "FIL/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T05:26:06.661761+03:00", "pair": "FIL/GRASS", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T05:26:06.662688+03:00", "pair": "OP/MINA", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T05:26:06.663772+03:00", "pair": "UMA/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T05:26:06.664667+03:00", "pair": "ASTER/VIRTUAL", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T06:15:37.436192+03:00", "pair": "FIL/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T06:15:37.453242+03:00", "pair": "FIL/GRASS", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T06:15:37.454174+03:00", "pair": "OP/MINA", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T06:15:37.455090+03:00", "pair": "UMA/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T06:15:37.456030+03:00", "pair": "ASTER/VIRTUAL", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T07:05:00.046556+03:00", "pair": "SUI/GRASS", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T07:05:00.048723+03:00", "pair": "FIL/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T07:05:00.050105+03:00", "pair": "OP/AEVO", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T07:05:00.050951+03:00", "pair": "AXS/YB", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T07:05:00.051901+03:00", "pair": "ASTER/VIRTUAL", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T07:05:00.052833+03:00", "pair": "UMA/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T07:53:49.296047+03:00", "pair": "SUI/GRASS", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T07:53:49.298505+03:00", "pair": "FIL/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T07:53:49.299500+03:00", "pair": "OP/AEVO", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T07:53:49.300393+03:00", "pair": "OP/MINA", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T07:53:49.301237+03:00", "pair": "ASTER/VIRTUAL", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T08:42:48.672162+03:00", "pair": "FIL/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T08:42:48.683598+03:00", "pair": "FIL/GRASS", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T08:42:48.684466+03:00", "pair": "OP/AEVO", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T08:42:48.685258+03:00", "pair": "ASTER/VIRTUAL", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T09:31:28.838640+03:00", "pair": "SUI/GRASS", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T09:31:28.849287+03:00", "pair": "FIL/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T09:31:28.850243+03:00", "pair": "FIL/GRASS", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T09:31:28.851148+03:00", "pair": "OP/AEVO", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T10:43:17.345686+03:00", "pair": "ADA/HBAR", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T10:43:17.362977+03:00", "pair": "1000BONK/GALA", "direction": "SHORT", "source": "auto_monitor", "reason": "cooldown 4ч (3.0ч осталось)", "category": "cooldown"}
+{"ts": "2026-04-23T10:43:17.364221+03:00", "pair": "LINK/NEAR", "direction": "LONG", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО)", "category": "entry_label"}
+{"ts": "2026-04-23T11:06:10.903574+03:00", "pair": "LINK/NEAR", "direction": "LONG", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО)", "category": "entry_label"}
+{"ts": "2026-04-23T11:49:07.932764+03:00", "pair": "VIRTUAL/AVNT", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T11:49:07.948221+03:00", "pair": "LINK/NEAR", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T11:49:07.949470+03:00", "pair": "ONDO/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T11:49:07.950553+03:00", "pair": "DOGE/STRK", "direction": "LONG", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️CUSUM ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-23T12:32:31.783847+03:00", "pair": "VIRTUAL/AVNT", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T12:32:31.785740+03:00", "pair": "ASTER/SEI", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T12:32:31.786856+03:00", "pair": "ONDO/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T12:32:31.787698+03:00", "pair": "DOGE/STRK", "direction": "LONG", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️CUSUM ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-23T13:14:04.731886+03:00", "pair": "ONDO/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T13:14:04.749010+03:00", "pair": "DOGE/STRK", "direction": "LONG", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️CUSUM ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-23T13:55:55.167236+03:00", "pair": "ASTER/SEI", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T14:57:16.512173+03:00", "pair": "ASTER/SEI", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T14:57:16.556493+03:00", "pair": "ONDO/SPX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T15:51:33.841354+03:00", "pair": "CRV/VIRTUAL", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T15:51:33.858122+03:00", "pair": "ASTER/SEI", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T16:33:43.152725+03:00", "pair": "CRV/VIRTUAL", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T16:33:43.153620+03:00", "pair": "ASTER/SEI", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T17:19:43.859702+03:00", "pair": "CRV/VIRTUAL", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T22:24:48.411654+03:00", "pair": "DOT/WLD", "direction": "LONG", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-23T22:59:51.401186+03:00", "pair": "CRV/VIRTUAL", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-23T22:59:51.402717+03:00", "pair": "DOT/WLD", "direction": "LONG", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-23T23:11:07.356947+03:00", "pair": "DOT/WLD", "direction": "LONG", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-23T23:11:07.368054+03:00", "pair": "SUI/AVAX", "direction": "LONG", "source": "auto_monitor", "reason": "SHORT-only mode", "category": "direction"}
+{"ts": "2026-04-24T10:16:43.873691+03:00", "pair": "WIF/POL", "direction": "LONG", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️CUSUM ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-24T10:16:43.894011+03:00", "pair": "ONDO/DYDX", "direction": "LONG", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️BT)", "category": "entry_label"}
+{"ts": "2026-04-24T11:07:53.663917+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "🚫 Pair memory: LINK/ATOM — 2 сделок, 0 побед, PnL=-1.42%", "category": "pair_memory"}
+{"ts": "2026-04-24T11:07:53.678965+03:00", "pair": "WIF/POL", "direction": "LONG", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️CUSUM ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-24T12:00:25.166132+03:00", "pair": "LINK/INJ", "direction": "LONG", "source": "auto_monitor", "reason": "🚫 Pair memory: LINK/INJ — 2 сделок, 0 побед, PnL=-2.20%", "category": "pair_memory"}
+{"ts": "2026-04-24T12:00:25.167879+03:00", "pair": "DOGE/MON", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-24T12:53:29.596345+03:00", "pair": "LINK/INJ", "direction": "LONG", "source": "auto_monitor", "reason": "🚫 Pair memory: LINK/INJ — 2 сделок, 0 побед, PnL=-2.20%", "category": "pair_memory"}
+{"ts": "2026-04-24T12:53:29.597963+03:00", "pair": "DOGE/MON", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-24T13:46:46.989798+03:00", "pair": "LINK/INJ", "direction": "LONG", "source": "auto_monitor", "reason": "🚫 Pair memory: LINK/INJ — 2 сделок, 0 побед, PnL=-2.20%", "category": "pair_memory"}
+{"ts": "2026-04-24T13:46:46.991471+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "🚫 Pair memory: LINK/ATOM — 2 сделок, 0 побед, PnL=-1.42%", "category": "pair_memory"}
+{"ts": "2026-04-24T13:46:46.993176+03:00", "pair": "DOGE/MON", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-24T13:46:46.994806+03:00", "pair": "WIF/POL", "direction": "LONG", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️CUSUM ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-24T13:46:46.996096+03:00", "pair": "CRV/SENT", "direction": "LONG", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-24T14:41:34.434373+03:00", "pair": "LINK/INJ", "direction": "LONG", "source": "auto_monitor", "reason": "🚫 Pair memory: LINK/INJ — 2 сделок, 0 побед, PnL=-2.20%", "category": "pair_memory"}
+{"ts": "2026-04-24T14:41:34.454036+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "🚫 Pair memory: LINK/ATOM — 2 сделок, 0 побед, PnL=-1.42%", "category": "pair_memory"}
+{"ts": "2026-04-24T14:41:34.455029+03:00", "pair": "WIF/POL", "direction": "LONG", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️CUSUM ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-24T14:41:34.468478+03:00", "pair": "CRV/SENT", "direction": "LONG", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-24T15:33:38.648515+03:00", "pair": "AXS/AR", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО)", "category": "entry_label"}
+{"ts": "2026-04-24T16:32:52.654719+03:00", "pair": "AXS/AR", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО)", "category": "entry_label"}
+{"ts": "2026-04-24T18:36:05.864064+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "🚫 Pair memory: LINK/ATOM — 2 сделок, 0 побед, PnL=-1.42%", "category": "pair_memory"}
+{"ts": "2026-04-24T19:25:22.363476+03:00", "pair": "XRP/CRV", "direction": "SHORT", "source": "auto_monitor", "reason": "cooldown 4ч (3.3ч осталось)", "category": "cooldown"}
+{"ts": "2026-04-24T19:25:22.365656+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "🚫 Pair memory: LINK/ATOM — 2 сделок, 0 побед, PnL=-1.42%", "category": "pair_memory"}
+{"ts": "2026-04-24T20:20:41.967508+03:00", "pair": "XRP/CRV", "direction": "SHORT", "source": "auto_monitor", "reason": "cooldown 4ч (2.4ч осталось)", "category": "cooldown"}
+{"ts": "2026-04-24T20:20:41.977392+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "🚫 Pair memory: LINK/ATOM — 2 сделок, 0 побед, PnL=-1.42%", "category": "pair_memory"}
+{"ts": "2026-04-24T21:10:59.794685+03:00", "pair": "LINK/ATOM", "direction": "LONG", "source": "auto_monitor", "reason": "🚫 Pair memory: LINK/ATOM — 2 сделок, 0 побед, PnL=-1.42%", "category": "pair_memory"}
+{"ts": "2026-04-24T22:04:44.048147+03:00", "pair": "TRUMP/BARD", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️CUSUM ❌BT)", "category": "entry_label"}
+{"ts": "2026-04-24T22:04:44.050074+03:00", "pair": "ANIME/MEME", "direction": "SHORT", "source": "auto_monitor", "reason": "entry_filter (🟡 УСЛОВНО ⚠️CUSUM ❌BT)", "category": "entry_label"}

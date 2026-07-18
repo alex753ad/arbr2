@@ -1,0 +1,1378 @@
+{
+  "ETH/STETH": {
+    "session_pnl": -0.384,
+    "last_loss_time": "2026-03-08T12:27:21.359950+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-08",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ETH/BTC": {
+    "session_pnl": -0.405,
+    "last_loss_time": "2026-03-08T12:49:37.222788+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-08",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ADA/KITE": {
+    "session_pnl": 0.746,
+    "last_loss_time": null,
+    "last_dir": "LONG",
+    "date": "2026-03-08",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "SUI/TON": {
+    "session_pnl": -0.4,
+    "last_loss_time": "2026-03-21T12:33:46.910066+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-21",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ATOM/TIA": {
+    "session_pnl": 0.182,
+    "last_loss_time": "2026-03-08T13:37:48.293085+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-04-08",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "SOL/UNI": {
+    "session_pnl": 0.623,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-08",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "SUI/DOGS": {
+    "session_pnl": -0.273,
+    "last_loss_time": "2026-03-08T13:45:26.907571+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-08",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "TRUMP/LIT": {
+    "session_pnl": -2.053,
+    "last_loss_time": "2026-03-08T15:52:51.154683+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-08",
+    "sl_exit": true,
+    "consecutive_sl": 1
+  },
+  "AVAX/FIL": {
+    "session_pnl": 0.368,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-08",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "SOL/LTC": {
+    "session_pnl": -0.712,
+    "last_loss_time": "2026-03-22T00:11:53.458403+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-22",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "XRP/MLN": {
+    "session_pnl": 0.023,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-08",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "LINK/LTC": {
+    "session_pnl": -0.33,
+    "last_loss_time": "2026-04-02T14:32:05.817470+03:00",
+    "last_dir": "LONG",
+    "date": "2026-04-02",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "KITE/ADA": {
+    "session_pnl": -0.338,
+    "last_loss_time": "2026-03-08T18:34:13.478915+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-08",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "XRP/LIT": {
+    "session_pnl": 0.319,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-08",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ASTER/ATOM": {
+    "session_pnl": 0.033,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-09",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ASTER/LIT": {
+    "session_pnl": 0.157,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-09",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ETH/XMR": {
+    "session_pnl": -2.3,
+    "last_loss_time": "2026-03-24T09:33:43.032628+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-24",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "WLD/APT": {
+    "session_pnl": -0.315,
+    "last_loss_time": "2026-03-13T00:45:47.472370+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-13",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "WLD/MNT": {
+    "session_pnl": 1.799,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-10",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "XRP/ETC": {
+    "session_pnl": 1.685,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-17",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "DOT/UNI": {
+    "session_pnl": -5.678,
+    "last_loss_time": "2026-03-15T19:53:25.287370+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-15",
+    "sl_exit": true,
+    "consecutive_sl": 1
+  },
+  "WLD/FIL": {
+    "session_pnl": 2.631,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-12",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "WLD/CRV": {
+    "session_pnl": -0.594,
+    "last_loss_time": "2026-04-11T11:11:33.970577+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-04-11",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ZEC/AAVE": {
+    "session_pnl": -1.491,
+    "last_loss_time": "2026-03-18T07:05:48.361265+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-18",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "WLD/IP": {
+    "session_pnl": 0.414,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-11",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "AXS/INJ": {
+    "session_pnl": 2.121,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-11",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "AXS/ETC": {
+    "session_pnl": 1.128,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-14",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "WLD/ONDO": {
+    "session_pnl": 0.359,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-11",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "LTC/ETC": {
+    "session_pnl": 1.843,
+    "last_loss_time": null,
+    "last_dir": "LONG",
+    "date": "2026-03-14",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ETH/RIVER": {
+    "session_pnl": -1.62,
+    "last_loss_time": "2026-03-31T21:51:51.784549+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-31",
+    "sl_exit": true,
+    "consecutive_sl": 1
+  },
+  "SOL/BNB": {
+    "session_pnl": 0.662,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-14",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "AVAX/LINK": {
+    "session_pnl": -6.957,
+    "last_loss_time": "2026-03-15T19:48:52.739119+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-15",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ASTER/AZTEC": {
+    "session_pnl": -5.533,
+    "last_loss_time": "2026-03-15T19:53:33.265695+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-15",
+    "sl_exit": true,
+    "consecutive_sl": 1
+  },
+  "BNB/RIVER": {
+    "session_pnl": 21.335,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-15",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "FIL/ICP": {
+    "session_pnl": 8.704,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-15",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ICP/INJ": {
+    "session_pnl": 5.673,
+    "last_loss_time": null,
+    "last_dir": "LONG",
+    "date": "2026-03-15",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "SOL/XMR": {
+    "session_pnl": 0.007,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-24",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "LINK/AVAX": {
+    "session_pnl": -1.332,
+    "last_loss_time": "2026-03-16T03:49:42.548399+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-16",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ETH/COIN": {
+    "session_pnl": 0.524,
+    "last_loss_time": "2026-03-16T09:57:35.822015+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-16",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "XAUT/ZEC": {
+    "session_pnl": 7.313,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-16",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "XAUT/BNB": {
+    "session_pnl": -0.867,
+    "last_loss_time": "2026-03-16T23:27:36.069584+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-16",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "XAUT/DASH": {
+    "session_pnl": -2.029,
+    "last_loss_time": "2026-03-17T07:30:42.817165+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-17",
+    "sl_exit": true,
+    "consecutive_sl": 1
+  },
+  "XAUT/XMR": {
+    "session_pnl": -1.141,
+    "last_loss_time": "2026-03-17T07:32:50.870121+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-17",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "BNB/XMR": {
+    "session_pnl": -1.165,
+    "last_loss_time": "2026-03-18T14:22:17.532517+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-18",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "WLD/WLFI": {
+    "session_pnl": -1.108,
+    "last_loss_time": "2026-03-19T10:04:08.893729+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-19",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ADA/WLD": {
+    "session_pnl": 0.171,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-19",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "UNI/ATOM": {
+    "session_pnl": -0.36,
+    "last_loss_time": "2026-03-24T19:45:59.550632+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-24",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "XRP/FARTCOIN": {
+    "session_pnl": -0.786,
+    "last_loss_time": "2026-03-19T20:53:21.304707+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-19",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "HBAR/MON": {
+    "session_pnl": 0.173,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-19",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "SUI/ASTER": {
+    "session_pnl": 0.447,
+    "last_loss_time": null,
+    "last_dir": "LONG",
+    "date": "2026-03-20",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "AAVE/BCH": {
+    "session_pnl": -0.819,
+    "last_loss_time": "2026-03-20T13:23:18.431137+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-20",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "WLD/ASTER": {
+    "session_pnl": -2.38,
+    "last_loss_time": "2026-03-20T13:24:21.146793+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-20",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "AXS/ETHFI": {
+    "session_pnl": 2.07,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-20",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "SUI/VIRTUAL": {
+    "session_pnl": -0.356,
+    "last_loss_time": "2026-03-26T16:20:21.462619+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-26",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "XRP/WIF": {
+    "session_pnl": -1.619,
+    "last_loss_time": "2026-03-23T09:40:35.882079+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-23",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ADA/HBAR": {
+    "session_pnl": -21.048,
+    "last_loss_time": "2026-03-26T10:20:42.506866+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-26",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "LINK/VVV": {
+    "session_pnl": 1.013,
+    "last_loss_time": "2026-03-23T09:57:48.842342+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-25",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "DOT/ATOM": {
+    "session_pnl": -1.798,
+    "last_loss_time": "2026-03-21T12:33:05.101603+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-21",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "SUI/ATOM": {
+    "session_pnl": -0.795,
+    "last_loss_time": "2026-03-21T12:33:26.092169+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-21",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "XAUT/PAXG": {
+    "session_pnl": -0.52,
+    "last_loss_time": "2026-03-23T10:07:11.262976+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-23",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "DOGE/STRK": {
+    "session_pnl": -1.264,
+    "last_loss_time": "2026-03-25T00:58:49.157221+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-25",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "AVAX/BARD": {
+    "session_pnl": 0.973,
+    "last_loss_time": null,
+    "last_dir": "LONG",
+    "date": "2026-03-25",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "SUI/RENDER": {
+    "session_pnl": -1.732,
+    "last_loss_time": "2026-03-23T08:50:09.867862+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-23",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ADA/POL": {
+    "session_pnl": -0.386,
+    "last_loss_time": "2026-03-27T02:41:22.414399+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-27",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "XRP/MNT": {
+    "session_pnl": 1.097,
+    "last_loss_time": "2026-03-22T09:08:38.492168+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-23",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "DOGE/ANIME": {
+    "session_pnl": -3.169,
+    "last_loss_time": "2026-03-22T12:36:35.088404+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-22",
+    "sl_exit": true,
+    "consecutive_sl": 1
+  },
+  "LINK/ATOM": {
+    "session_pnl": -0.269,
+    "last_loss_time": "2026-03-28T07:48:50.610773+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-28",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ASTER/ARB": {
+    "session_pnl": 2.119,
+    "last_loss_time": null,
+    "last_dir": "LONG",
+    "date": "2026-03-22",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "AVAX/ZRO": {
+    "session_pnl": -1.306,
+    "last_loss_time": "2026-03-22T19:41:40.930029+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-22",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "DOGE/W": {
+    "session_pnl": 1.72,
+    "last_loss_time": null,
+    "last_dir": "LONG",
+    "date": "2026-03-22",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "LTC/VVV": {
+    "session_pnl": -2.655,
+    "last_loss_time": "2026-03-22T19:42:55.930506+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-22",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "SOL/VVV": {
+    "session_pnl": -2.65,
+    "last_loss_time": "2026-03-22T19:43:33.241542+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-22",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ADA/IMX": {
+    "session_pnl": 2.738,
+    "last_loss_time": null,
+    "last_dir": "LONG",
+    "date": "2026-03-23",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ORDER/ANIME": {
+    "session_pnl": -2.023,
+    "last_loss_time": "2026-03-23T08:51:58.755099+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-23",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "HBAR/ATH": {
+    "session_pnl": -3.268,
+    "last_loss_time": "2026-03-23T09:52:08.667309+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-23",
+    "sl_exit": true,
+    "consecutive_sl": 1
+  },
+  "ASTER/ETHFI": {
+    "session_pnl": 0.588,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-23",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ONDO/DYDX": {
+    "session_pnl": -0.568,
+    "last_loss_time": "2026-03-23T11:40:33.745297+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-23",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "VIRTUAL/XPL": {
+    "session_pnl": 0.611,
+    "last_loss_time": "2026-03-23T12:06:14.171803+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-27",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "AVAX/AXS": {
+    "session_pnl": -3.378,
+    "last_loss_time": "2026-03-23T13:44:34.724291+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-23",
+    "sl_exit": true,
+    "consecutive_sl": 1
+  },
+  "SOL/HYPE": {
+    "session_pnl": -0.228,
+    "last_loss_time": "2026-03-24T09:34:27.152884+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-24",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "LTC/BCH": {
+    "session_pnl": 0.451,
+    "last_loss_time": null,
+    "last_dir": "LONG",
+    "date": "2026-03-26",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "APT/MNT": {
+    "session_pnl": -3.008,
+    "last_loss_time": "2026-03-23T18:51:27.973290+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-23",
+    "sl_exit": true,
+    "consecutive_sl": 1
+  },
+  "ONDO/SEI": {
+    "session_pnl": 0.027,
+    "last_loss_time": null,
+    "last_dir": "LONG",
+    "date": "2026-03-23",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ASTER/XPL": {
+    "session_pnl": 0.539,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-31",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "AVAX/ICP": {
+    "session_pnl": 0.586,
+    "last_loss_time": "2026-03-24T00:48:55.915554+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-04-22",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "LINK/INJ": {
+    "session_pnl": -0.05,
+    "last_loss_time": "2026-03-27T02:41:24.554928+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-27",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "LTC/BARD": {
+    "session_pnl": 0.586,
+    "last_loss_time": "2026-03-24T03:58:43.188605+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-27",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "SUI/MNT": {
+    "session_pnl": -0.05,
+    "last_loss_time": "2026-03-27T17:25:09.194309+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-27",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "UNI/IP": {
+    "session_pnl": -0.659,
+    "last_loss_time": "2026-03-25T12:13:56.258722+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-25",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "XRP/ATOM": {
+    "session_pnl": -0.545,
+    "last_loss_time": "2026-03-24T06:45:05.104693+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-24",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "XRP/IP": {
+    "session_pnl": -0.969,
+    "last_loss_time": "2026-03-24T06:45:52.942863+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-24",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "LINK/AXS": {
+    "session_pnl": -0.438,
+    "last_loss_time": "2026-03-24T18:23:04.038563+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-24",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "TIA/NIGHT": {
+    "session_pnl": 2.239,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-24",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "DYDX/SEI": {
+    "session_pnl": -1.622,
+    "last_loss_time": "2026-03-24T19:46:03.159108+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-24",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "LINK/NEAR": {
+    "session_pnl": -8.18,
+    "last_loss_time": "2026-03-24T19:46:07.254816+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-24",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "XRP/TON": {
+    "session_pnl": 0.489,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-25",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "DOGE/MON": {
+    "session_pnl": -3.194,
+    "last_loss_time": "2026-03-25T00:18:34.960029+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-25",
+    "sl_exit": true,
+    "consecutive_sl": 1
+  },
+  "LTC/AAVE": {
+    "session_pnl": -0.474,
+    "last_loss_time": "2026-03-25T02:15:49.891754+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-25",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "XRP/ETHFI": {
+    "session_pnl": 0.25,
+    "last_loss_time": "2026-03-25T02:15:52.439788+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-26",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "LINK/RENDER": {
+    "session_pnl": 0.427,
+    "last_loss_time": null,
+    "last_dir": "LONG",
+    "date": "2026-03-25",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "GAS/TIA": {
+    "session_pnl": 0.051,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-25",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "VIRTUAL/IP": {
+    "session_pnl": 0.427,
+    "last_loss_time": null,
+    "last_dir": "LONG",
+    "date": "2026-03-25",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "SUI/DUSK": {
+    "session_pnl": -3.534,
+    "last_loss_time": "2026-03-25T16:28:05.646629+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-25",
+    "sl_exit": true,
+    "consecutive_sl": 1
+  },
+  "ONDO/DUSK": {
+    "session_pnl": -3.039,
+    "last_loss_time": "2026-03-25T16:35:53.025866+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-25",
+    "sl_exit": true,
+    "consecutive_sl": 1
+  },
+  "DOT/TON": {
+    "session_pnl": 0.854,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-25",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ADA/KAITO": {
+    "session_pnl": -0.771,
+    "last_loss_time": "2026-03-25T17:43:41.973611+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-25",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ICP/ATOM": {
+    "session_pnl": 0.046,
+    "last_loss_time": "2026-03-25T17:43:46.770834+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-26",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "LTC/XMR": {
+    "session_pnl": 0.177,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-25",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "DOGE/DYDX": {
+    "session_pnl": -3.053,
+    "last_loss_time": "2026-03-27T01:53:24.438854+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-27",
+    "sl_exit": true,
+    "consecutive_sl": 2
+  },
+  "GAS/AXS": {
+    "session_pnl": -0.451,
+    "last_loss_time": "2026-03-26T01:51:56.735394+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-26",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ONDO/ATOM": {
+    "session_pnl": -3.017,
+    "last_loss_time": "2026-03-26T02:11:56.921001+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-26",
+    "sl_exit": true,
+    "consecutive_sl": 1
+  },
+  "DOGE/KAS": {
+    "session_pnl": -0.802,
+    "last_loss_time": "2026-03-26T08:27:59.715080+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-26",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "LINK/ZRO": {
+    "session_pnl": -1.942,
+    "last_loss_time": "2026-03-26T09:07:00.176498+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-26",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ADA/SEI": {
+    "session_pnl": -2.824,
+    "last_loss_time": "2026-03-26T10:12:02.325561+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-26",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "XRP/LIGHT": {
+    "session_pnl": -3.188,
+    "last_loss_time": "2026-03-26T11:54:52.588447+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-26",
+    "sl_exit": true,
+    "consecutive_sl": 1
+  },
+  "BNB/ZEC": {
+    "session_pnl": 0.803,
+    "last_loss_time": null,
+    "last_dir": "LONG",
+    "date": "2026-03-26",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "DOGE/POL": {
+    "session_pnl": -1.577,
+    "last_loss_time": "2026-03-26T12:07:36.826226+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-26",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ONDO/MOODENG": {
+    "session_pnl": -3.285,
+    "last_loss_time": "2026-03-26T12:31:44.162163+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-26",
+    "sl_exit": true,
+    "consecutive_sl": 1
+  },
+  "CRV/HBAR": {
+    "session_pnl": -0.722,
+    "last_loss_time": "2026-03-26T16:18:22.232438+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-26",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "LDO/ETHFI": {
+    "session_pnl": -0.971,
+    "last_loss_time": "2026-03-26T16:18:24.460270+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-26",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "LDO/IP": {
+    "session_pnl": -2.234,
+    "last_loss_time": "2026-03-26T16:18:29.291161+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-26",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "SUI/NEAR": {
+    "session_pnl": 0.713,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-26",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "XRP/ONDO": {
+    "session_pnl": 1.059,
+    "last_loss_time": null,
+    "last_dir": "LONG",
+    "date": "2026-03-26",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "DOT/IP": {
+    "session_pnl": 0.33,
+    "last_loss_time": "2026-04-10T03:37:33.085097+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-04-10",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "AXS/LIT": {
+    "session_pnl": -1.9,
+    "last_loss_time": "2026-03-26T23:44:26.257801+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-26",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "BNB/BCH": {
+    "session_pnl": -0.681,
+    "last_loss_time": "2026-03-26T23:44:28.498351+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-26",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "LINK/BARD": {
+    "session_pnl": 0.815,
+    "last_loss_time": null,
+    "last_dir": "LONG",
+    "date": "2026-03-27",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ASTER/DYDX": {
+    "session_pnl": 2.061,
+    "last_loss_time": null,
+    "last_dir": "LONG",
+    "date": "2026-03-27",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "LINK/LIT": {
+    "session_pnl": -3.053,
+    "last_loss_time": "2026-03-27T14:52:10.949698+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-27",
+    "sl_exit": true,
+    "consecutive_sl": 1
+  },
+  "ONDO/SUPER": {
+    "session_pnl": -3.058,
+    "last_loss_time": "2026-03-27T19:10:41.791327+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-27",
+    "sl_exit": true,
+    "consecutive_sl": 1
+  },
+  "FIL/IP": {
+    "session_pnl": 1.133,
+    "last_loss_time": null,
+    "last_dir": "LONG",
+    "date": "2026-03-27",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "LINK/ICP": {
+    "session_pnl": -0.236,
+    "last_loss_time": "2026-03-30T05:19:07.126837+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-30",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ZRO/POL": {
+    "session_pnl": -1.275,
+    "last_loss_time": "2026-03-31T10:15:26.295458+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-31",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "XRP/ASTER": {
+    "session_pnl": -0.772,
+    "last_loss_time": "2026-03-28T09:21:42.081483+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-28",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ASTER/SEI": {
+    "session_pnl": -1.604,
+    "last_loss_time": "2026-03-29T07:24:01.617035+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-29",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "VANA/BIRB": {
+    "session_pnl": 3.1,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-29",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "LTC/BEAT": {
+    "session_pnl": -3.037,
+    "last_loss_time": "2026-03-29T18:04:07.104256+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-29",
+    "sl_exit": true,
+    "consecutive_sl": 1
+  },
+  "VVV/ZRO": {
+    "session_pnl": -0.77,
+    "last_loss_time": "2026-03-30T04:25:06.754214+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-30",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "HBAR/SEI": {
+    "session_pnl": -0.027,
+    "last_loss_time": "2026-03-30T22:28:30.270318+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-30",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ETC/ZRO": {
+    "session_pnl": -1.709,
+    "last_loss_time": "2026-03-30T18:34:31.781637+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-30",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ETC/ATOM": {
+    "session_pnl": -1.784,
+    "last_loss_time": "2026-03-31T10:15:13.616900+03:00",
+    "last_dir": "LONG",
+    "date": "2026-03-31",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "UNI/BARD": {
+    "session_pnl": 0.016,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-03-31",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "SUI/TIA": {
+    "session_pnl": -1.238,
+    "last_loss_time": "2026-03-31T04:21:08.380816+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-31",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "LINK/TRUMP": {
+    "session_pnl": -0.935,
+    "last_loss_time": "2026-04-10T03:37:42.387836+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-04-10",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "XRP/TWT": {
+    "session_pnl": -1.214,
+    "last_loss_time": "2026-03-31T17:29:18.897716+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-03-31",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "LIT/0G": {
+    "session_pnl": 0.144,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-04-02",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "XRP/EIGEN": {
+    "session_pnl": 0.241,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-04-06",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ATOM/SNX": {
+    "session_pnl": 0.476,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-04-06",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "SNX/SAND": {
+    "session_pnl": -2.149,
+    "last_loss_time": "2026-04-07T08:54:36.103232+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-04-07",
+    "sl_exit": true,
+    "consecutive_sl": 1
+  },
+  "ORCA/MET": {
+    "session_pnl": 0.549,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-04-08",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ORCA/AXL": {
+    "session_pnl": 1.091,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-04-07",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "WLD/HBAR": {
+    "session_pnl": 0.949,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-04-08",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "INJ/ETHFI": {
+    "session_pnl": 0.143,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-04-08",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "AERO/ELSA": {
+    "session_pnl": -0.71,
+    "last_loss_time": "2026-04-08T10:09:19.763275+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-04-08",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "AERO/BREV": {
+    "session_pnl": -1.683,
+    "last_loss_time": "2026-04-08T12:08:52.689341+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-04-08",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ORCA/POPCAT": {
+    "session_pnl": -1.549,
+    "last_loss_time": "2026-04-08T17:45:51.157817+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-04-08",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "XMR/GIGGLE": {
+    "session_pnl": 0.868,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-04-09",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ASTER/OP": {
+    "session_pnl": 1.158,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-04-10",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "CRV/SEI": {
+    "session_pnl": 0.079,
+    "last_loss_time": null,
+    "last_dir": "LONG",
+    "date": "2026-04-11",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ATOM/AERO": {
+    "session_pnl": 0.681,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-04-10",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "AERO/THETA": {
+    "session_pnl": 0.123,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-04-10",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "ATOM/SPX": {
+    "session_pnl": 0.239,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-04-10",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "VIRTUAL/ATOM": {
+    "session_pnl": 0.446,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-04-11",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "AVAX/ATOM": {
+    "session_pnl": -1.449,
+    "last_loss_time": "2026-04-11T05:43:31.566430+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-04-11",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "UMA/ARKM": {
+    "session_pnl": 1.493,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-04-21",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "UMA/TIA": {
+    "session_pnl": 0.404,
+    "last_loss_time": null,
+    "last_dir": "SHORT",
+    "date": "2026-04-21",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "FIL/FARTCOIN": {
+    "session_pnl": -0.389,
+    "last_loss_time": "2026-04-22T17:41:17.817148+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-04-22",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "NOT/HMSTR": {
+    "session_pnl": -0.917,
+    "last_loss_time": "2026-04-23T07:18:04.582822+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-04-23",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "1000BONK/GALA": {
+    "session_pnl": -1.552,
+    "last_loss_time": "2026-04-23T09:45:13.611362+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-04-23",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "XRP/CRV": {
+    "session_pnl": -1.01,
+    "last_loss_time": "2026-04-24T18:42:44.899055+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-04-24",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "SUI/BREV": {
+    "session_pnl": 1.367,
+    "last_loss_time": null,
+    "last_dir": "LONG",
+    "date": "2026-04-24",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  },
+  "AXS/ASTER": {
+    "session_pnl": -0.496,
+    "last_loss_time": "2026-04-24T21:34:42.591591+03:00",
+    "last_dir": "SHORT",
+    "date": "2026-04-24",
+    "sl_exit": false,
+    "consecutive_sl": 0
+  }
+}

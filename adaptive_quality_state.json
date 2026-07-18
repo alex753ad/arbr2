@@ -1,0 +1,91 @@
+{
+  "current_q": 50,
+  "last_updated": "2026-04-24T22:04:43.861203+03:00",
+  "last_signal_count": 11,
+  "change_history": [
+    {
+      "ts": "2026-04-14T20:32:00+03:00",
+      "old_q": 70,
+      "new_q": 63,
+      "signal_count": 0,
+      "reason": "MANUAL RESET: adaptive_q застрял на 70 из-за downtime daemon'а (Apr 12-14). Сброс к default=63."
+    },
+    {
+      "ts": "2026-04-17T19:44:27.808053+03:00",
+      "old_q": 63,
+      "new_q": 66,
+      "signal_count": 14,
+      "reason": "signal_count=14 > raise_threshold=12 → повышаем min_quality 63 → 66"
+    },
+    {
+      "ts": "2026-04-18T21:01:18.801699+03:00",
+      "old_q": 66,
+      "new_q": 63,
+      "signal_count": 1,
+      "reason": "signal_count=1 < target_min=3 → снижаем min_quality 66 → 63"
+    },
+    {
+      "ts": "2026-04-18T22:44:11.305790+03:00",
+      "old_q": 63,
+      "new_q": 60,
+      "signal_count": 0,
+      "reason": "signal_count=0 < target_min=3 → снижаем min_quality 63 → 60"
+    },
+    {
+      "ts": "2026-04-18T23:23:00.561209+03:00",
+      "old_q": 60,
+      "new_q": 57,
+      "signal_count": 1,
+      "reason": "signal_count=1 < target_min=3 → снижаем min_quality 60 → 57"
+    },
+    {
+      "ts": "2026-04-19T00:04:14.812771+03:00",
+      "old_q": 57,
+      "new_q": 54,
+      "signal_count": 1,
+      "reason": "signal_count=1 < target_min=3 → снижаем min_quality 57 → 54"
+    },
+    {
+      "ts": "2026-04-19T00:36:27.956325+03:00",
+      "old_q": 54,
+      "new_q": 51,
+      "signal_count": 0,
+      "reason": "signal_count=0 < target_min=3 → снижаем min_quality 54 → 51"
+    },
+    {
+      "ts": "2026-04-19T01:08:25.757957+03:00",
+      "old_q": 51,
+      "new_q": 50,
+      "signal_count": 0,
+      "reason": "signal_count=0 < target_min=3 → снижаем min_quality 51 → 50"
+    },
+    {
+      "ts": "2026-04-22T09:45:01.149028+03:00",
+      "old_q": 50,
+      "new_q": 53,
+      "signal_count": 14,
+      "reason": "signal_count=14 > raise_threshold=12 → повышаем min_quality 50 → 53"
+    },
+    {
+      "ts": "2026-04-22T16:56:27.068483+03:00",
+      "old_q": 53,
+      "new_q": 56,
+      "signal_count": 17,
+      "reason": "signal_count=17 > raise_threshold=12 → повышаем min_quality 53 → 56"
+    },
+    {
+      "ts": "2026-04-23T21:49:58.708143+03:00",
+      "old_q": 56,
+      "new_q": 53,
+      "signal_count": 0,
+      "reason": "signal_count=0 < target_min=3 → снижаем min_quality 56 → 53"
+    },
+    {
+      "ts": "2026-04-23T22:24:48.292761+03:00",
+      "old_q": 53,
+      "new_q": 50,
+      "signal_count": 1,
+      "reason": "signal_count=1 < target_min=3 → снижаем min_quality 53 → 50"
+    }
+  ]
+}

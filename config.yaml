@@ -1,0 +1,292 @@
+# ═══════════════════════════════════════════════════════
+# config.yaml — v41.3 TRADE-1 + Z_TRAIL + ANALYSIS-v46 + ANALYSIS-v47 + ANALYSIS-v48 + ANALYSIS-v49
+#
+# ANALYSIS-v49 ИЗМЕНЕНИЯ (02.04.2026, анализ частоты + PnL 302 сделки):
+#   Проблема: 2 сделки/день вместо 10, PnL по-прежнему минусовой
+#   Диагноз:
+#     - max_halflife_hours=8 блокировал 60% пар, при этом HL≤8h avg=-0.28% (ХУЖЕ)
+#       vs HL 14-20h avg=+0.92% (ЛУЧШИЙ сегмент, был заблокирован)
+#     - take_profit_pct=2.0 достижим только для 7.2% сделок (phantom);
+#       нужный WR=56.5%, система даёт 47.7% → математически убыточно
+#     - min_z_long=3.0 пропускает LONG Z[3.0-3.5] avg=-0.69%/сделку
+#   [A25] max_halflife_hours: 8 → 20    (правило: max_hl ≤ max_hold; HL=20h за 12h → 51% возврат)
+#   [A26] take_profit_pct: 2.0 → 1.5    (нужный WR падает с 56.5% до 47.2% — достижимо)
+#   [A27] auto_tp_pct: 2.0 → 1.5        (синхронизация monitor с strategy)
+#   [A28] min_z_long: 3.0 → 3.5         (LONG Z[3.0-3.5] avg=-0.69%; SHORT Z[2.5-3.0] avg=+0.53% — не трогать)
+#
+# ANALYSIS-v48 ИЗМЕНЕНИЯ (31.03.2026, анализ 31 сделки Dual TF + 30 scan pairs):
+#   Проблема: PF=0.67 неизменен, avg_win=+0.85% vs avg_loss=-1.27%
+#   Причина: SL=-3% уничтожает 3.4 trail-выигрыша; TIMEOUT WR=8% (13 сделок -9.32%)
+#   [A15] auto_sl_pct: -3.0 → -2.0    (SL стирал 3.4 wins, при -2.0 стирает 2.3 wins)
+#   [A16] stale_exit: 6ч/0.3%          (если best<0.3% через 6ч → закрыть; 7/12 TO best=0)
+#   [A17] max_z_entry: 4.0             (|Z|>4 = breakout, не mean-rev; Z 3-4 WR=27%)
+#   [A18] min_quality: 66 → 63         (при 66 только 1 пара в скане; 63 + корреляция)
+#   [A19] min_entry_correlation: 0.3   (пары с ρ<0.3 без хеджа: ASTER/XPL ρ=0.16, APT/AXS ρ=-0.11)
+#   [A20] top_n_coins: 70 → 50         (неликвид RIVER/BEAT/BIRB slippage 1-2%, убираем)
+#   [A21] max_halflife_hours: 28 → 8   (HL=28 → 26% reversion за 12ч; HL=8 → 65%)
+#   [A22] min_hurst: 0.45 → 0.40       (все profitable TRAIL имели H<0.30)
+#   [A23] adaptive_sl: base=1.0 per_z=0.4 (SL зависит от |Z|: -2.0% при Z=2.5, -2.4% при Z=3.5)
+#   [A24] time_decay_trail: 8ч/0.5%/0.3% (drawdown 0.5→0.3 после пика если зависла)
+#
+# ANALYSIS-v47 ИЗМЕНЕНИЯ (30.03.2026, анализ daemon log + 287 trades + 330 phantom):
+#   [A12] entry_z_min: 2.5 (NEW)         — min |Z| для ВСЕХ направлений, не только LONG
+#   [A13] hr_kalman_update_hours: 4 (NEW) — пересчёт HR каждые 4ч внутри позиции (HR-drift fix)
+#   [A14] pending_cleanup_on_reject: true — удалять pending при отказе, не ждать TTL 2ч
+#   Обоснование:
+#     - entry_z_min: сделки |Z|<2.5 убыточны во всех фазах (-0.32% до v45, -0.60% v45)
+#     - HR drift: HBAR/SEI 30.03 Z→-0.03 но PnL=-0.49% (HR сместился за 10ч)
+#     - pending: daemon обрабатывал 12 зависших файлов каждую минуту (нагрузка без пользы)
+#
+# ANALYSIS-v46 ИЗМЕНЕНИЯ (27.03.2026, анализ 310 phantom-сделок):
+#   База: гибридный Q-score c 17.03, dual TF c 27.03
+#   Проблема: WR=38.2%, payoff=0.68, total=-64.67% в гибридном периоде
+#   Причины: Q-инфляция (+10 баллов) → до 31 сделки/день, TIMEOUT без trail
+#   [A1] trailing_activate_pct: 1.5 -> 1.0  (медиана best_pnl=0.89%, trail не срабатывал)
+#   [A2] trailing_drawdown_pct: 0.7 -> 0.5  (avg phantom drop = 0.53%)
+#   [A3] max_hold_hours: 16 -> 12            (сделки >12ч: WR=31-32%, avg=-0.63%)
+#   [A4] phase2_pnl_fallback: 1.2 -> 1.0    (раньше защита при зависших сделках)
+#   [A5] min_quality: 60 -> 66              (компенсация Q-инфляции v45)
+#   [A6] min_z_long: 0 -> 3.0              (LONG: avg=-0.55%, WR=38.9% — ограничиваем)
+#   [A7] z_trail_activate: 0.3 -> 0.2       (Z_TRAIL — лучший выход avg+2.41%, расширяем)
+#   [A8] force_trail_best_pct: 0.93         (NEW: принудительный trail при best>=0.93% hold>=4ч)
+#   [A9] force_trail_hours: 4.0             (NEW: см. A8)
+#   [A10] rally_filter.timeframe: 4h -> 1h  (BTC Z на 1h: обновление каждые 60мин vs 4ч)
+#   [A11] rally_filter.btc_limit: 200 -> 500 (500 x 1h = ~21 день, аналог 200 x 4h)
+#   Q-формула (mean_reversion_analysis.py): Stability 25->30, ADF 15->10
+#
+# Z_TRAIL ИЗМЕНЕНИЯ (поверх TRADE-1):
+#   Стратегия: выход только через Z_TRAIL + аварийный стоп -3%
+#   [Z1] trailing_enabled: false -> true  (TRAIL включён как страховка при best>=1.5%)
+#   [Z2] auto_sl_pct: -2.5 -> -3.0       (аварийный стоп — не должен срабатывать в норме)
+#   [Z3] pnl_stop_pct: -5.0 -> -10.0     (PNLSTOP нейтрализован)
+#   [Z4] z_trail_activate: 0.5 -> 0.3    (раньше активируем трейл по Z)
+#   [Z5] z_trail_drawdown: 0.3 -> 0.5    (реальный avg drop из анализа phantom = 0.53%)
+#
+# TRADE-1 FIX: Оптимизация на основе анализа 188 сделок:
+#   Проблема: WR=47.3%, payoff=0.92x, total=-23.14%
+#   Причины:
+#     SL (-2.0%) = -96.55% (53 сделки, 0% WR) — главный убыток
+#     Комиссия 0.345% x 188 = -64.79% — слишком много сделок
+#     TP=1.5% при slippage до 1.44% — маржа нулевая
+#     Q=50-60 убыточны (avg -0.%), Q=80+ прибыльны (avg +2.99%)
+#   Изменения:
+#     [1] auto_sl_pct: -2.0 -> -2.5 -> -3.0 (Z_TRAIL)
+#     [2] auto_tp_pct: 1.5 -> 2.0    (trail забирает среднюю часть)
+#     [3] trailing_activate_pct: 1.2 -> 1.0 (раньше защищаем прибыль)
+#     [4] trailing_drawdown_pct: 0.6 -> 0.5 (tighter trail)
+#     [5] min_quality: 60 -> 65       (отсекаем убыточный Q=50-60)
+#     [6] phase2_pnl_fallback: 1.5 -> 1.2 (раньше входим в Phase 2)
+#     [7] pair_loss_limit_pct: -2.0 -> -2.5 (синхронизация с SL)
+# ═══════════════════════════════════════════════════════
+
+strategy:
+  entry_z: 2.5
+  exit_z: 0.5
+  stop_z_offset: 2.0
+  min_stop_z: 4.0
+  # TRADE-1 [2]: 1.5 -> 2.0 (при slippage 0.3-1.4% маржа была нулевой)
+  # ANALYSIS-v49 [A26]: 2.0 → 1.5. Phantom: best≥2.0% только у 7.2% сделок.
+  # При TP=2.0 нужен WR=56.5%, система даёт 47.7% → убыточно.
+  # При TP=1.5 нужен WR=47.2% — достижимо (исторически 51.8%).
+  take_profit_pct: 1.5
+  stop_loss_pct: -5.0
+  # ANALYSIS-v46 [2]: 16 -> 12 (синхронизировано с monitor.max_hold_hours)
+  max_hold_hours: 12
+  micro_bt_max_bars: 6
+  # ANALYSIS-v48 [A22]: 0.45 → 0.40. Все profitable TRAIL-сделки в Dual TF
+  # имели Hurst < 0.30. Ужесточение отсекает пограничные пары.
+  min_hurst: 0.40
+  warn_hurst: 0.48
+  min_correlation: 0.20
+  hr_naked_threshold: 0.15
+  max_hr_threshold: 5.0
+  min_hr_threshold: 0.05
+  max_pvalue: 0.15
+  commission_pct: 0.10
+  slippage_pct: 0.05
+  bt_filter_mode: HARD
+  # Пункт 12a: uBT SKIP блокирует авто-вход (HARD/INFO)
+  ubt_filter_mode: HARD
+  adaptive_tp: true
+  # ANALYSIS-v55 [A33]: short_only остаётся false (было true в v54, возврат к false для LONG сигналов)
+  short_only: false
+  # ANALYSIS-v46 [4]: LONG ограничен — min |Z| для LONG входов (LONG avg=-0.55%, WR=38.9%)
+  # SHORT не ограничивается (avg=-0.12%, WR=46.7%). 0.0 = отключено.
+  # ANALYSIS-v49 [A28]: 3.0 → 3.5. LONG Z[3.0-3.5] avg=-0.69%, WR=35%.
+  # SHORT Z[2.5-3.0] avg=+0.53%, WR=55% — не трогаем.
+  min_z_long: 3.5
+  # ANALYSIS-v47: минимальный |Z| для ВСЕХ направлений (SHORT + LONG).
+  # Сделки с |Z| < 2.5 убыточны во всех фазах: до v45 avg=-0.32%, v45 avg=-0.60%.
+  # min_z_long=3.0 защищает LONG. entry_z_min=2.5 защищает и SHORT тоже.
+  # Применяется в engine/auto_entry.py check_entry_z_min() и daemon process_pending().
+  # ANALYSIS-v55 [A34]: 2.5→3.0 (Z[2.5-3] avg=-0.53%, все STALE; Z≥3 прибыльны)
+  entry_z_min: 3.0
+  # ANALYSIS-v48 [A17]: максимальный |Z| для входа. |Z|>4 = breakout, не mean-reversion.
+  # Dual TF: |Z| 3.0-4.0 WR=27% avg=-1.09% — худшая зона.
+  # ZRO/POL Z=-4.45 → -0.71%, ETC/ATOM Z=-3.98 → HR_DRIFT -1.78%.
+  max_z_entry: 4.0
+  # ANALYSIS-v48 [A19]: минимальная корреляция пары для авто-входа.
+  # Пары с ρ<0.3 не имеют работающего хеджа.
+  # Скан: ASTER/XPL ρ=0.16, DOGE/TRIA ρ=0.12, APT/AXS ρ=-0.11.
+  min_entry_correlation: 0.3
+  entry_label_hard_block: true
+  entry_label_block_list: ['ЖДАТЬ']
+  entry_label_allow_manual: true
+  conviction_gate_enabled: true
+  conviction_gate_min: 0.5
+  use_hurst_ema_fallback: true
+
+scanner:
+  refresh_interval_min: 10
+  max_pairs_display: 50
+  max_halflife_hours: 28
+  # TRADE-1 [5]: 60 -> 65 (Q=50-60: 47 trades avg=-0.30%, Q=60-65: 52 trades avg=+0.18%)
+  # v45 REVERT: 65 -> 60 — гибридная формула снизила Q у части пар,
+  # порог 65 блокировал почти все входы. Накапливаем phantom-историю.
+  # ANALYSIS-v46 [3]: 60 -> 66 — компенсация Q-инфляции v45 (+10 баллов к большинству пар)
+  # ANALYSIS-v48 [A18]: 66 → 63. При Q≥66 только 1 пара в скане (30 пар).
+  # Компенсирующий фильтр: min_entry_correlation=0.3 (отсекает пары без хеджа).
+  min_quality: 63
+  timeframe: 4h
+  exchanges: ['bybit']
+  # ANALYSIS-v48 [A20]: 70 → 50. Нижние 20 монет — неликвид (RIVER, BEAT, BIRB)
+  # со slippage 1-2%. Средний slippage по логу = 0.77% при заложенных 0.05%.
+  # ANALYSIS-v55 [A35]: 50 → 70. При 50 монетах только 164 пары-кандидата (было 221).
+  # Расширение до 70 даёт ~220+ пар → больше с Q≥63.
+  top_n_coins: 70
+  # ANALYSIS-v48 [A21]: max_halflife_hours добавлен в config (было только UI).
+  # 28 → 8. При HL=28ч и hold=12ч спред возвращается на 26% (1-0.5^(12/28)).
+  # При HL=8ч — на 65%.
+  # ANALYSIS-v49 [A25]: 8 → 20. HL≤8h avg=-0.28%/сд, HL 14-20h avg=+0.92%/сд — инверсия!
+  # max_hl=8 блокировал лучший сегмент. Правило: max_hl ≤ max_hold (12ч), HL=20ч за 12ч → 51% возврат.
+  max_halflife_hours: 20
+  exchange: bybit
+  use_kalman: true
+
+monitor:
+  refresh_interval_sec: 60
+  # TRADE-1 [2]: TP 1.5 -> 2.0 (15 TP-сделок закрывались на пороге, trail забирает среднюю часть)
+  # ANALYSIS-v49 [A27]: 2.0 → 1.5. Синхронизация с strategy.take_profit_pct.
+  auto_tp_pct: 1.5
+  # Z_TRAIL: SL переведён в аварийный стоп.
+  # ANALYSIS-v48 [A15]: -3.0 → -2.0. При avg_win=+0.85% каждый SL=-3% стирал 3.4 wins.
+  # При -2.0% стирает 2.3 wins. Phantom: 2/3 SL в Dual TF имели best=0 — уходят против сразу.
+  auto_sl_pct: -2.0
+  # [A23] Adaptive SL: SL = -(base + per_z × |entry_z|). Cap at auto_sl_pct.
+  # |Z|=2.5 → -2.0%;  |Z|=3.0 → -2.2%;  |Z|=3.5 → -2.4%;  |Z|=4.0 → -2.6% (cap -2.0 не даст шире)
+  # Логика: при малом Z мало буфера → тесный стоп. При большом Z больше волатильности → шире.
+  adaptive_sl_enabled: true
+  adaptive_sl_base: 1.0
+  adaptive_sl_per_z: 0.4
+  # Z_TRAIL: PNLSTOP нейтрализован (код требует PNLSTOP шире SL на 1%, при -10.0 не достигается никогда)
+  pnl_stop_pct: -10.0
+  exit_z_target: 0.5
+  auto_exit_z: 0.3
+  auto_exit_z_mode: TRAIL
+  auto_exit_z_min_pnl: 0.5
+  # Trailing: страховка для сделок где Z не дошёл до 0
+  trailing_enabled: true
+  # TRADE-1 [3]: 1.2 -> 1.0 (median best_pnl=0.894%, раньше захватываем trail)
+  # ANALYSIS-v46 [1]: 1.5 -> 1.0 (медиана best_pnl=0.89%, trail не активировался в большинстве прибыльных сделок)
+  trailing_activate_pct: 1.0
+  # TRADE-1 [4]: 0.6 -> 0.5 (avg trail drop при exit=0.53%, tighter сохраняет больше)
+  # ANALYSIS-v46 [4]: оставить 0.5 — avg phantom drop = 0.53%
+  trailing_drawdown_pct: 0.5
+  # [A24] Time-decay trail: ужесточение drawdown для зависших сделок после пика.
+  # Если best>=0.5% но сделка зависла >8ч — пик был, возврат маловероятен.
+  # Drawdown сужается до 0.3%, фиксируя остаток прибыли.
+  time_decay_hours: 8.0
+  time_decay_min_best: 0.5
+  time_decay_dd: 0.3
+  # TRADE-1 [6]: 1.5 -> 1.2 (раньше Phase 2 trailing protection)
+  # ANALYSIS-v46: 1.2 -> 1.0 — раньше защищаем при зависших сделках
+  phase2_pnl_fallback: 1.0
+  phase2_hours_fallback: 6.0
+  # Z_TRAIL: основной механизм выхода. activate=0.3% (входим в трейл раньше), drawdown=0.5% (avg реальный drop)
+  # ANALYSIS-v46 [5]: 0.3 -> 0.2 — раньше активируем Z-trail, охват вырастет
+  z_trail_activate: 0.2
+  z_trail_drawdown: 0.5
+  # FORCE_TRAIL: ANALYSIS-v46 [6] — принудительный trail если best >= порога за >= N часов
+  force_trail_best_pct: 0.93
+  force_trail_hours: 4.0
+  phantom_track_hours: 12
+  entry_grace_minutes: 5
+  # ANALYSIS-v46 [2]: 16 -> 12 (сделки >12ч: WR=31–32%, avg=-0.63% — деструктивны)
+  max_hold_hours: 12
+  # ANALYSIS-v48 [A16]: STALE EXIT — ранний выход для сделок без движения.
+  # Phantom Dual TF: 7/12 TIMEOUT имели best=0 (ни разу не были в плюсе за 12ч).
+  # Если после stale_exit_hours P&L<0 и best_during < stale_exit_min_best → закрыть.
+  # Экономит ~0.3-0.5% на каждой (средний TIMEOUT=-0.72%, средний stale≈-0.3%).
+  stale_exit_hours: 6.0
+  stale_exit_min_best: 0.3
+  pair_cooldown_hours: 4
+  # TRADE-1 [7]: -2.0 -> -2.5 (синхронизация с SL)
+  # ANALYSIS-v48: -2.5 → -2.0 (синхронизация с новым SL -2.0)
+  pair_loss_limit_pct: -2.0
+  daily_loss_limit_pct: -50.0
+  cooldown_after_sl_hours: 12
+  cooldown_after_2sl_hours: 12
+  cascade_sl_enabled: true
+  cascade_sl_window_hours: 2
+  cascade_sl_threshold: 3
+  cascade_sl_pause_hours: 1
+  # Пункт 10: HR drift пороги (было hardcoded 15%/20%)
+  hr_drift_warn_pct: 15      # ⚠️ предупреждение → REBALANCE (обновить entry_hr + скорр. ногу)
+  hr_drift_critical_pct: 40  # 🚨 критический → EXIT (пара потеряла коинтеграцию)
+  # ANALYSIS-v47: HR Kalman-update каждые N часов внутри позиции.
+  # Решает проблему HR-drift: Z→0 но PnL<0 из-за смещения hedge ratio.
+  # HBAR/SEI 30.03: Z дошёл до -0.03, PnL=-0.49% — HR сместился за 10ч.
+  # Три исхода (AUTO_HR_DRIFT): drift<warn→HOLD, warn≤drift<crit→REBALANCE, drift≥crit→EXIT.
+  hr_kalman_update_hours: 4
+  # Минимальный интервал между ребалансами (защита от перерегулирования).
+  # Если последний rebalance был < N часов назад — действие деградирует до HOLD.
+  hr_rebalance_cooldown_hours: 4
+  # ANALYSIS-v47: немедленное удаление pending при отказе (не ждать TTL 2ч).
+  # Снижает нагрузку daemon: лог показывал "12 pending" висящих часами.
+  pending_cleanup_on_reject: true
+  max_positions: 20
+  max_coin_exposure: 4
+  max_coin_positions: 2
+
+position_sizing:
+  enabled: true
+  base_size: 100
+  max_multiplier: 2.0
+  min_size: 50
+  max_size: 250
+  signal_entry_bonus: 0.5
+  high_z_bonus: 0.3
+  bt_pass_bonus: 0.2
+  bt_fail_penalty: -0.5
+  good_volume_bonus: 0.2
+
+rally_filter:
+  warning_z: 2.0
+  block_z: 2.5
+  exit_z: 0.0
+  cooldown_bars: 2
+  # ANALYSIS-v46: BTC Z считается на отдельном таймфрейме (не сканерном 4h).
+  # 1h даёт более частые обновления — блокировка не зависает на сутки.
+  # btc_limit: количество свечей. 500 x 1h = ~21 день (аналог 200 x 4h = ~33 дня).
+  timeframe: 1h
+  btc_limit: 500
+
+bybit:
+  enabled: true
+  # CONFIG-4 FIX: поле testnet удалено — bybit_executor всегда Demo Trading URL
+  api_key: "qEGujyEQ5sqZIQ8tJE"
+  api_secret: "NYwxDOem0ePqpCcJVFWZpDCpA5cNIGD11vuP"
+  default_size_usdt: 100
+  leverage: 1
+  auto_execute: true
+  # [A25] Execution: aggressive limit, no market fallback на entry.
+  # limit_wait_sec: 5 → 15. Лимитка ждёт fill 15с вместо 5с.
+  # limit_offset_pct: 0.05%. Сдвигает лимитку внутрь спреда для быстрого fill.
+  #   Buy: bid + 0.05%, Sell: ask - 0.05%.
+  # entry_market_fallback: false. Если лимитка не fill за 15с → ОТМЕНА.
+  #   Pending остаётся, daemon попробует на следующем цикле по свежей цене.
+  #   Slippage: 0.77% → ~0.1-0.2% (экономия ~0.6% на каждой сделке).
+  #   Для exit: всегда маркет (закрытие важнее slippage).
+  limit_wait_sec: 15
+  limit_offset_pct: 0.05
+  entry_market_fallback: false
